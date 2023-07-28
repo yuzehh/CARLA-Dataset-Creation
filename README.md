@@ -5,7 +5,7 @@ This GitHub repository aims to tackle this challenge by providing code for colle
 
 Besides, we also public an infrastructure-vehicle multimodal dataset (~14GB) comprising mainstream sensor data (3D LiDAR point clouds and RGB images) and poses from both roadside infrastructure and vehicles. Access to the dataset for download through [this link (Google Drive)](https://drive.google.com/file/d/1xwg10Ueju2GhR2QSmSOABKSzGI0vIuxd/view?usp=sharing). 
 
-## Introduction 
+## Highlight Features
 
 We offer four different data collection settings in CARLA:
 
