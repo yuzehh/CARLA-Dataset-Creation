@@ -6,11 +6,6 @@ This GitHub repository aims to tackle this challenge by providing code for colle
 Besides, we also public an infrastructure-vehicle multimodal dataset (~14GB) comprising mainstream sensor data (3D LiDAR point clouds and RGB images) and poses from both roadside infrastructure and vehicles. Access to the dataset for download through [this link (Google Drive)](https://drive.google.com/file/d/1xwg10Ueju2GhR2QSmSOABKSzGI0vIuxd/view?usp=sharing). 
 
 ## Introduction 
-We support four different kinds of settings for collecting data in CARLA:
-- Collect infrastrucutre-end data based on the existing lampposts in CARLA. There already exists multiple lampposts in CARLA, on which we can mount different sensors on and collect sensor data on the infrastructure's view. We visualize all lamppost postions of "Town05" in CARLA in the following image, we can find that not all the lampposts are on the roadside, there are some lampposts far away from the roadside. Moreover, the roadside lampposts are not evenly distributed, which is not in consistent with the real-world secenario settings.
-- So we provide another option: Self define lampposts in CARLA and collect infrastrucutre-end data based on the self-defined lampposts. We define xxx lampposts in Town05 and visualize their postions in the following image. we can mount different sensors on these self-defined lampposts and collect sensor data on the infrastructure's view.
-- Collect vehicle-end data. We support installing different sensors on an ego vehicle, collct sensor data on the vehicle's view with the existance of different levels of traffic conditions (heavy to light traffic) and with different driving speed.
-- Collect multiple vehicle trajectories. We support spawning different numbers of vehicles and collect each of their trajectories.
 
 We offer four different data collection settings in CARLA:
 
