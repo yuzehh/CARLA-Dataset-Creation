@@ -54,7 +54,7 @@ Within the script, you have the flexibility to modify the scenario (Town name), 
 
 ### Collecting Infrastructure-End Data from Self-Defined Lampposts
 
-We have pre-defined xxx lampposts in the "Town05" in CARLA. The file 'lamppose_incarla.txt' contains a xxx x 6 array, representing the positions (x, y, z) and poses (pitch, roll, yaw) of all these self-defined lampposts. Each lamppost is assigned a unique ID, which corresponds to its index in this array.
+We have pre-defined 181 lampposts in the "Town05" in CARLA. The file 'lamp_selfdefined.txt' contains a 181 x 3 array, representing the information (x, y, yaw) of all these self-defined lampposts. Each lamppost is assigned a unique ID, which corresponds to its index in this array.
 
 First start the CARLA simulator by open a terminal and run:
 ```
