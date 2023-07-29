@@ -45,8 +45,8 @@ python3 carla_infra_datacollect.py
 
 This will create a folder named "lampincarla", which comprises three components:
 
-1. A file named lampincarla_poses.txt, containing the positions (x, y, z) and poses (pitch, roll, yaw) of all the lampposts.
-2. A file named lampincarla_IDlist.txt, including the IDs of all the lampposts.
+1. A file named 'lampincarla_poses.txt', containing the positions (x, y, z) and poses (pitch, roll, yaw) of all the lampposts.
+2. A file named 'lampincarla_IDlist.txt', including the IDs of all the lampposts.
 3. Multiple sub-folders, each named by "sensortype_lampID", which contain the sensor data of the lampposts with specific IDs.
 
 Within the script, you have the flexibility to modify the scenario (Town name), data collection time, and add or remove sensor types mounted on the infrastructure. Additionally, you can adjust the parameters and configurations of the sensors.
@@ -96,7 +96,7 @@ Next, the script randomly selects a spawn point from the list to spawn the ego v
 
 Additionally, the script offers flexibility to customize various parameters and configurations, including the intersection distance *threshold*, the number of surrounding vehicles, data collection time, sensor types on the vehicle, and other sensor-related settings.
 
-### Collecting Vehicle-End Data
+### Collecting Multiple Vehicle Trajectories
 
 First start the CARLA simulator by open a terminal and run:
 ```
