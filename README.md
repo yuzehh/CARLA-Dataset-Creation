@@ -22,16 +22,12 @@ These versatile data collection settings empower researchers to simulate diverse
 ## Getting Started
 
 ### Download and Install CARLA
-To use this repository, please first follow the official document to download CARLA: https://carla.readthedocs.io/en/0.9.13/. It's worth noting that you only need to download and install the packaged version of CARLA, and there is no need to build CARLA from source. Building CARLA from source can be complicated and time-consuming, so opting for the packaged version simplifies the setup process. This repository is tesed on CARLA version 0.9.13.
+To use this repository, please first follow the official document to download CARLA: https://carla.readthedocs.io/en/0.9.13/. It's worth noting that you only need to download and install the packaged version of CARLA, and there is no need to build CARLA from the source. Building CARLA from source can be complicated and time-consuming, so opting for the packaged version simplifies the setup process. This repository is tested on CARLA version 0.9.13.
 
-After the installtion, download this repository and put the scripts in the folder ```PythonAPI```:
-```
-cd your_project_folder/CARLA_0.9.13/PythonAPI/
-git clone https://github.com/yuzehh/CARLA-Dataset-Creation.git .
-```
+After the installation, download this repository and put all the files in this repository into the folder ```PythonAPI```.
 
 ### Collecting Infrastructure-End Data from Existing Lampposts
-First start the CARLA simulator by open a terminal and run:
+First start the CARLA simulator by opening a terminal and running:
 ```
 cd your_project_folder/CARLA_0.9.13/
 ./CarlaUE4.sh  # start CARLA simulator
@@ -56,7 +52,7 @@ Within the script, you have the flexibility to modify the scenario (Town name), 
 
 We have pre-defined 181 lampposts in the "Town05" in CARLA. The file 'lamp_selfdefined.txt' contains a 181 x 3 array, representing the information (x, y, yaw) of all these self-defined lampposts. Each lamppost is assigned a unique ID, which corresponds to its index in this array.
 
-First start the CARLA simulator by open a terminal and run:
+First start the CARLA simulator by opening a terminal and running:
 ```
 cd your_project_folder/CARLA_0.9.13/
 ./CarlaUE4.sh  # start CARLA simulator
@@ -73,7 +69,7 @@ This will generate a folder named "selfdefined_lamp". This folder will contain m
 
 ### Collecting Vehicle-End Data
 
-First start the CARLA simulator by open a terminal and run:
+First start the CARLA simulator by opening a terminal and running:
 ```
 cd your_project_folder/CARLA_0.9.13/
 ./CarlaUE4.sh  # start CARLA simulator
@@ -98,7 +94,7 @@ Additionally, the script offers flexibility to customize various parameters and 
 
 ### Collecting Multiple Vehicle Trajectories
 
-First start the CARLA simulator by open a terminal and run:
+First start the CARLA simulator by opening a terminal and running:
 ```
 cd your_project_folder/CARLA_0.9.13/
 ./CarlaUE4.sh  # start CARLA simulator
@@ -110,7 +106,7 @@ cd your_project_folder/CARLA_0.9.13/PythonAPI/
 python3 vehicles_wanderfortraj.py
 ```
 
-This script will generate a folder named "vehicle_trajs", which contains the trajecotory data of each spawned vehicle. Each trajectory file is represented as an nx10 array, where n denotes the frame numbers, and each row contains the information (x, y, z, pitch, yaw, roll, frame_index, velocity_x, velocity_y, velocity_z). The script provides flexibility in both the number of spawned vehicles and the data collection time. 
+This script will generate a folder named "vehicle_trajs", which contains the trajectory data of each spawned vehicle. Each trajectory file is represented as an nx10 array, where n denotes the frame numbers, and each row contains the information (x, y, z, pitch, yaw, roll, frame_index, velocity_x, velocity_y, velocity_z). The script provides flexibility in both the number of spawned vehicles and the data collection time. 
 
 ## Citation
 
