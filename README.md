@@ -35,7 +35,7 @@ cd your_project_folder/CARLA_0.9.13/
 
 Then open another terminal and run:
 ```
-cd your_project_folder/CARLA_0.9.13/PythonAPI/
+cd your_project_folder/CARLA_0.9.13/PythonAPI//examples/
 python3 carla_infra_datacollect.py
 ```
 
@@ -60,7 +60,7 @@ cd your_project_folder/CARLA_0.9.13/
 
 Then open another terminal and run:
 ```
-cd your_project_folder/CARLA_0.9.13/PythonAPI/examples
+cd your_project_folder/CARLA_0.9.13/PythonAPI/examples/
 python3 selfdefined_infra_datacollect.py
 ```
 
@@ -77,7 +77,7 @@ cd your_project_folder/CARLA_0.9.13/
 
 Then open another terminal and run:
 ```
-cd your_project_folder/CARLA_0.9.13/PythonAPI/
+cd your_project_folder/CARLA_0.9.13/PythonAPI//examples/
 python3 vehicle_datacollect.py
 ```
 
@@ -102,7 +102,7 @@ cd your_project_folder/CARLA_0.9.13/
 
 Then open another terminal and run:
 ```
-cd your_project_folder/CARLA_0.9.13/PythonAPI/
+cd your_project_folder/CARLA_0.9.13/PythonAPI//examples/
 python3 vehicles_wanderfortraj.py
 ```
 
