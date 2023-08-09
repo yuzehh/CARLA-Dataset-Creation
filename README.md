@@ -24,7 +24,7 @@ These versatile data collection settings empower researchers to simulate diverse
 ### Download and Install CARLA
 To use this repository, please first follow the official document to download CARLA: https://carla.readthedocs.io/en/0.9.13/. It's worth noting that you only need to download and install the packaged version of CARLA, and there is no need to build CARLA from the source. Building CARLA from source can be complicated and time-consuming, so opting for the packaged version simplifies the setup process. This repository is tested on CARLA version 0.9.13.
 
-After the installation, download this repository and put all the files in this repository into the folder ```PythonAPI```.
+After the installation, download this repository and put all the files in this repository into the folder ```PythonAPI/examples```.
 
 ### Collecting Infrastructure-End Data from Existing Lampposts
 First start the CARLA simulator by opening a terminal and running:
@@ -60,7 +60,7 @@ cd your_project_folder/CARLA_0.9.13/
 
 Then open another terminal and run:
 ```
-cd your_project_folder/CARLA_0.9.13/PythonAPI/
+cd your_project_folder/CARLA_0.9.13/PythonAPI/examples
 python3 selfdefined_infra_datacollect.py
 ```
 
