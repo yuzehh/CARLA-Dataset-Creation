@@ -11,7 +11,7 @@ We offer four different data collection settings in CARLA:
 
 **Collecting Infrastructure-End Data from Existing Lampposts**: Utilizing the lampposts already present in CARLA, we can mount various sensors to gather sensor data from the infrastructure's view. However, it's worth noting that not all lampposts are situated roadside. Moreover, the roadside lampposts are not evenly distributed, which may deviate from real-world scenario settings. 
 
-**Collecting Infrastructure-End Data from Self-Defined Lampposts**: To address the limitations of existing lampposts, we provide an option to define custom lampposts in CARLA and mount sensors on these self-defined lampposts to collect infrastructure-end data. The positions of the xxx lampposts in Town05 are visualized in the provided image.
+**Collecting Infrastructure-End Data from Self-Defined Lampposts**: To address the limitations of existing lampposts, we provide an option to define custom lampposts in CARLA and mount sensors on these self-defined lampposts to collect infrastructure-end data.
 
 **Collecting Vehicle-End Data (near the intersection)**: We provide the option to spawn an ego vehicle near an intersection or not, as intersections present complex scenarios worthy of research. We support installing various sensors on the ego vehicle to collect vehicle-end data. This data collection process can occur under different traffic conditions (ranging from heavy to light traffic) and at varying driving speeds.
 
